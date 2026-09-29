@@ -1,0 +1,79 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Roti Betlehem</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="brand">Roti Betlehem</div>
+
+    <nav class="site-nav">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="pesan">
+
+    <h2>Registrasi Pesanan Roti</h2>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <legend>Data Pemesan</legend>
+
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tgl">Tanggal Pemesanan</label>
+            <input type="date" id="tgl" name="tgl">
+
+            <label for="jml">Jumlah Pesanan</label>
+            <input type="number" id="jml" name="jml" min="1" max="20">
+
+            <label for="paket">Jenis Roti</label>
+
+            <select id="paket" name="paket">
+                <option>Roti Coklat</option>
+                <option>Roti Keju</option>
+                <option>Roti Sosis</option>
+                <option>Roti Abon</option>
+                <option>Roti Balak</option>
+            </select>
+
+            <label for="catatan">Catatan</label>
+
+            <textarea id="catatan" name="catatan" rows="3"></textarea>
+
+            <button type="submit">
+                Kirim Pesanan
+            </button>
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+<footer class="site-footer">
+    <p><strong>Roti Betlehem</strong></p>
+    <p>Email: info@RotiBetlehem.example</p>
+    <p>Telp: 0821-5673-9078</p>
+</footer>
+
+</body>
+</html>
+```
